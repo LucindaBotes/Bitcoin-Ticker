@@ -8,8 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.dark().copyWith(
-          primaryColor: Colors.lightBlue,
-          scaffoldBackgroundColor: Colors.white),
+          primaryColor: Color(0xFFc99d66),
+          scaffoldBackgroundColor: Color(0xFF0A094F)),
       home: PriceScreen(),
     );
   }
